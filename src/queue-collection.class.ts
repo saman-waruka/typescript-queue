@@ -21,4 +21,5 @@ export class QueueCollection<T> extends Collection<T> implements IQueue<T> {
   isFull(): boolean {
     return this.capacity === this.size();
   }
+  
 }
